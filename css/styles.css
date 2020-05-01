@@ -1,6 +1,5 @@
-
-h1, h2, h3, h4, h5, h6 {
-
+html {
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -8,12 +7,21 @@ h1 {
      font-weight: 800;
 }
 
+/* This will add red background color */
 .red {
      background-color: red;
 }
 
+/*This add green back ground color.*/
 .green {
      background-color: green;
+}
+
+.blue {
+     background: blue;
+}
+.clear {
+     clear: both;
 }
 
 .main-content {
@@ -22,9 +30,9 @@ h1 {
      width: 1000px;
 }
 
-.main {
-     padding-left: 10px;
-     padding-right: 10px;
+.row {
+     clear: both;
+     overflow: hidden;
 }
 
 .left {
@@ -44,9 +52,59 @@ h1 {
 }
 
 .third {
-     width: 25%
+     width: 23%
 }
 
 img {
      width: 100%;
+}
+
+.padding-all-24 {
+     padding: 24px;
+}
+
+.padding-all-10 {
+     padding: 10px;
+}
+
+.padding-24 {
+     padding-top: 24px;
+     padding-bottom: 24px;
+}
+
+.padding-48 {
+     padding-top: 48px;
+     padding-bottom: 48px;
+}
+
+.box-border {
+     border: 1px solid red;
+}
+
+.font-tiny {
+     font-size: 10px
+}
+
+.font-small {
+     font-size: 12px
+}
+
+.font-large {
+     font-size: 18px
+}
+
+.pale-yellow {
+     background-color: #ffffcc;
+}
+
+.pale-blue {
+     background-color: #ddffff;
+}
+
+.pale-red {
+     background-color: #ffdddd;
+}
+
+.pale-green {
+     background-color: #ddffdd;
 }
