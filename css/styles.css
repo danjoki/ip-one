@@ -7,6 +7,14 @@ h1 {
      font-weight: 800;
 }
 
+h2 {
+     color: purple;
+}
+
+h4 {
+     color: Chocolate;
+}
+
 /* This will add red background color */
 .red {
      background-color: red;
@@ -44,15 +52,18 @@ h1 {
 }
 
 .half {
-     width: 50%;
+     width: 49.99%;
+     float: left;
 }
 
 .twothird {
      width: 75%;
+     float: left;
 }
 
 .third {
-     width: 23%
+     width: 23%;
+     float: left;
 }
 
 img {
