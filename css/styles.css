@@ -40,7 +40,7 @@ h4 {
 
 .row {
      clear: both;
-     overflow: hidden;
+     /* overflow: hidden; */
 }
 
 .left {
@@ -52,7 +52,7 @@ h4 {
 }
 
 .half {
-     width: 49.99%;
+     width: 50%;
      float: left;
 }
 
