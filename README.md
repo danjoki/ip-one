@@ -1,6 +1,4 @@
 # My First IP - Daniel Kinyanjui
-#### This is a demonstration of how to build a simple website
-#### By **Daniel Kinyanjui**
 
 ## Description
 This is a demo of how you can build a simple web page using **HTML** and **CSS** as well as how version your code using **GIT**.
