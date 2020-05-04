@@ -15,19 +15,20 @@ h4 {
      color: Chocolate;
 }
 
-/* This will add red background color */
-.red {
+a {
+     text-decoration: none;
+     color: blue;
+}
+
+img {
+     width: 100%;
+}
+
+hr {
+     height: 1px;
      background-color: red;
 }
 
-/*This add green back ground color.*/
-.green {
-     background-color: green;
-}
-
-.blue {
-     background: blue;
-}
 .clear {
      clear: both;
 }
@@ -40,7 +41,7 @@ h4 {
 
 .row {
      clear: both;
-     /* overflow: hidden; */
+     overflow: hidden;
 }
 
 .left {
@@ -50,6 +51,8 @@ h4 {
 .right {
      float: right;
 }
+
+/* Row Grid */
 
 .half {
      width: 50%;
@@ -62,12 +65,23 @@ h4 {
 }
 
 .third {
+     width: 33.33%;
+     float: left;
+}
+
+.quarter {
      width: 23%;
      float: left;
 }
 
-img {
-     width: 100%;
+.image-circle {
+     width: 50px;
+     height: auto;
+     border-radius: 50%;
+     border: 1px solid white;
+     float: left;
+     margin-right: 20px;
+     vertical-align: middle;
 }
 
 .padding-all-24 {
@@ -102,6 +116,20 @@ img {
 
 .font-large {
      font-size: 18px
+}
+
+/* This will add red background color */
+.red {
+     background-color: red;
+}
+
+/*This add green back ground color.*/
+.green {
+     background-color: green;
+}
+
+.blue {
+     background: blue;
 }
 
 .pale-yellow {
