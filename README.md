@@ -6,6 +6,7 @@ This is a demo of how you can build a simple web page using **HTML** and **CSS**
 ## Setup Requirements
 * Clone or Fork the project from github on this link: https://github.com/danjoki/ip-one.git
 * Open index.html using any browser to start.
+* Or view the site [here](https://danjoki.github.io/ip-one/about-me.html).
 
 ## Known Bugs
 No bugs reported so far. However, you can raise any issues from appropriate channel on [github issues](https://github.com/danjoki/ip-one/issues) or use contacts below.
